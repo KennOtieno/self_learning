@@ -1,14 +1,15 @@
 void main() {
   // Declared the variables as told in the comment below.
-  var a = 43.434;
+  var a = 43434;
   const b = "Hey, this is a string.";
   final c = 343;
   // Printed their Values as told.
-  print('a');
-  print('b');
-  print('c');
+  print(a);
+  print(b);
+  print(c);
 
-  a = 34646; // Created a double value then converted it into an int
+  a = a.toInt(); // Created a double value then converted it into an int
+  print(a);
 
   print(' $b While $c is an int.'); // Declared a String and an Int and concatenated them to form a sentence
 }
